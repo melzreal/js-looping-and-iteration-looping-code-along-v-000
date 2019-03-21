@@ -13,6 +13,7 @@ function tailsNeverFails(){
 }
 
 while (tailsNeverFails()) {
-    console.log(`You got in a row!`);
-
+    counter = 0;
+    counter++;
+    return `You got ${counter} tails in a row!`)
 }
