@@ -6,3 +6,13 @@ function printBadges(arr){
 
    return arr;
 }
+
+function tailsNeverFails(){
+  
+    return Math.random() >= 0.5;
+}
+ 
+while (tailsNeverFails()) {
+    console.log(`You got ${tailsNeverFails().count} in a row`);
+
+}
