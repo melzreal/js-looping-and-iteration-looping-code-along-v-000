@@ -9,9 +9,8 @@ function printBadges(arr){
 
 function tailsNeverFails(){
 
-   const counter = 1;
+   let counter = 1;
    while (Math.random() >= 0.5) {
-
     counter++;
 
    } return `You got ${counter} tails in a row!`;
